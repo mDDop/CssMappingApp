@@ -30,7 +30,7 @@ public class Main {
                         fieldsList.get(i).setIndexNumber(fieldsList.get(i).getIndexNumber()+1);
                         fieldsList.get(i).setNameOfField(names[0]);
                     }
-                    if (names[0].replaceAll(" ", "").equals("")|| names[0].replaceAll(" ", "").startsWith("#")){
+                    if (names[0].replaceAll(" ", "").equals("")|| (names[0].replaceAll(" ", "").startsWith("#"))){
                         fieldsList.remove(i);
                     } else  {
                         i++;
